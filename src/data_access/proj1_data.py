@@ -46,7 +46,7 @@ class Proj1Data:
             #     collection = self.mongo_client[database_name][collection_name]
             DM_NAME = 'Proj1'
             COLLECTION_NAME = 'Proj1-data'
-            CONNECTION_URL = 'mongodb+srv://<user_name>:sw2h3lE7N9zR871B@cluster0.qhxqz9i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+            CONNECTION_URL = 'mongodb+srv://prathamdesai071204:sw2h3lE7N9zR871B@cluster0.qhxqz9i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
             client = pm.MongoClient(CONNECTION_URL)
             data_base = client[DM_NAME]
